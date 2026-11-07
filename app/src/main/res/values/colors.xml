@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- semantic tokens (replica-design: roles, not brand copies) -->
+    <color name="bg">#0A0E1A</color>
+    <color name="surface">#131A2B</color>
+    <color name="surface2">#1B2438</color>
+    <color name="border">#232D45</color>
+    <color name="text">#F4F7FF</color>
+    <color name="text_muted">#93A0B8</color>
+    <color name="accent">#7C4DFF</color>
+    <color name="accent2">#00E5FF</color>
+    <color name="pink">#FF4081</color>
+    <color name="success">#22D48B</color>
+    <color name="danger">#FF5470</color>
+    <color name="gradient_start">#651FFF</color>
+    <color name="gradient_end">#00E5FF</color>
+    <color name="launcher_bg">#651FFF</color>
+    <color name="badge_bg">#CC0A0E1A</color>
+    <color name="chip_selected">#7C4DFF</color>
+    <color name="chip_unselected">#1B2438</color>
+    <color name="indicator_bg">#1F7C4DFF</color>
+</resources>

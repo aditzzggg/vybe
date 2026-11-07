@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Vybe</string>
+    <string name="tagline">Music and Video. Zero Ads.</string>
+    <string name="nav_home">Home</string>
+    <string name="nav_search">Search</string>
+    <string name="nav_music">Music</string>
+    <string name="nav_settings">Settings</string>
+    <string name="home_header">Discover</string>
+    <string name="home_sub">Trending right now, no ads attached</string>
+    <string name="search_hint">Search songs, videos, artists…</string>
+    <string name="chip_videos">Videos</string>
+    <string name="chip_music">Songs</string>
+    <string name="music_hero_title">Music Mode</string>
+    <string name="music_hero_sub">Audio-only streaming that saves up to 90% of your data. Keeps playing when the screen is off.</string>
+    <string name="pick_genre">Pick a vibe</string>
+    <string name="settings_playback">Playback</string>
+    <string name="settings_instance">API Instance</string>
+    <string name="settings_instance_sub">Vybe streams through community Piped instances. Switch if one is slow.</string>
+    <string name="settings_region">Trending Region</string>
+    <string name="settings_about">About</string>
+    <string name="audio_only_default">Audio-only by default</string>
+    <string name="audio_only_sub">Start every stream in music mode to save data</string>
+    <string name="retry">Retry</string>
+    <string name="error_generic">Something went wrong reaching the stream instances.</string>
+    <string name="no_results">No results yet. Search for something above.</string>
+    <string name="audio_mode_on">Audio Mode on</string>
+    <string name="audio_mode_off">Audio Mode off</string>
+    <string name="follow">Follow</string>
+    <string name="following">Following</string>
+    <string name="up_next">Up Next</string>
+    <string name="disclaimer">Vybe is an experimental open-source client. Content is served by third-party community instances. Support the creators you love on their official channels.</string>
+</resources>
