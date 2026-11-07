@@ -92,7 +92,7 @@ class MainActivity : AppCompatActivity() {
 
     override fun onStop() {
         controller?.removeListener(playerListener)
-        MediaController.releaseFuture(controllerFuture)
+        controllerFuture?.let { MediaController.releaseFuture(it) }
         controller = null
         super.onStop()
     }

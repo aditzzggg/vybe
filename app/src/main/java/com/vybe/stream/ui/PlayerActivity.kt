@@ -126,7 +126,7 @@ class PlayerActivity : AppCompatActivity() {
     override fun onStop() {
         handler.removeCallbacks(segmentChecker)
         findViewById<PlayerView>(R.id.player_view).player = null
-        MediaController.releaseFuture(controllerFuture)
+        controllerFuture?.let { MediaController.releaseFuture(it) }
         controller = null
         super.onStop()
     }

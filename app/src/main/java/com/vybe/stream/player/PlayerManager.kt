@@ -27,7 +27,7 @@ object PlayerManager {
         val metadata = MediaMetadata.Builder()
             .setTitle(info.title)
             .setArtist(info.uploader)
-            .setArtworkUri(Uri.parse(info.thumbnail.ifBlank { info.uploaderAvatar }))
+            .setArtworkUri(Uri.parse("https://i.ytimg.com/vi/" + info.id + "/hqdefault.jpg"))
             .setExtras(extras)
             .build()
         return MediaItem.Builder()
