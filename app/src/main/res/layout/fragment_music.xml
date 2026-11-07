@@ -85,7 +85,7 @@
             app:singleSelection="true"
             app:selectionRequired="true"
             app:chipSpacingHorizontal="8dp"
-            xmlns:app="http://schemas.android.com/apk/res/auto" />
+            xmlns:app="http://schemas.android.com/apk/res-auto" />
     </HorizontalScrollView>
 
     <FrameLayout

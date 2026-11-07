@@ -16,7 +16,7 @@
         android:layout_height="52dp"
         android:scaleType="centerCrop"
         app:shapeAppearanceOverlay="@style/RoundedSong"
-        xmlns:app="http://schemas.android.com/apk/res/auto"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
         android:background="@drawable/bg_thumb_placeholder"
         android:contentDescription="@string/app_name" />
 
