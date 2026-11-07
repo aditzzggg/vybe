@@ -46,5 +46,6 @@ jobs:
 
             - Zero ads, background playback, music mode
             - Download app-release.apk below and install it (allow unknown sources)
+          files: app/build/outputs/apk/release/*.apk
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
